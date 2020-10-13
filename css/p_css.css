@@ -1,0 +1,150 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top-header {
+    height: 112px;
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top: 0;
+    width: 100%; 
+}
+
+.col4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col4 img {
+    margin-top: 32px;
+}
+
+.main-nav {
+    margin-top: 50px;
+}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+.main-nav li a {
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+}
+
+.main-nav li a:hover{
+    color: #11b7b1;
+}
+
+.social-menus{
+    margin-top: 10px;
+}
+.social-menus li{
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+    text-align: center;
+    line-height: 20px;
+}
+
+.yt{
+    margin-top: 5px;
+}
+
+#portfolio-area {
+    background-image: url(../forcss/portfoliobg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 675px;
+    padding-top: 222px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 80px;
+    text-transform: uppercase;
+}
+
+
+
+
+#portfolio-project{
+    min-height: 228px;
+    text-align: center;
+    background-color: #f4f4f4;
+    overflow: hidden;
+
+}
+
+#portfolio-project h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #11b7b1;
+}
+
+#portfolio-img{
+    background-image: url(../forcss/domore.jpg);
+    background-size: cover;
+    min-height: 650px;
+    margin-bottom: 132px;
+}
+
+#rightArrow{
+    float: right;
+    padding-top: 300px;
+    opacity: 0.5;
+    padding-right: 50px;
+}
+
+#leftArrow{
+    float: left;
+    padding-top: 300px;
+    padding-left: 50px;
+    opacity: 0.5;
+}
+
+#leftArrow:hover{
+    opacity: 1;
+}
+
+#rightArrow:hover{
+    opacity: 1;
+}
+
+footer{
+    background-color: #000;
+    min-height: 112px;
+    text-align: center;
+    color:#11b7b1;
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+footer p{
+    color: #11b7b1;
+    font-size: 24px;
+ 
+
+}

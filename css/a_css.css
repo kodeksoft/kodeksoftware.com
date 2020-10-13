@@ -1,0 +1,143 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.top-header{
+    background-color: rgba(0,0,0,0.5);
+    height: 112px;
+    width:100%;
+    position: absolute;
+}
+
+.col4{
+    
+    width: 33.3%;
+    float: left;
+}
+.col4 img{
+    margin-top: 32px;
+}
+.main-nav{
+    margin-top:50px;
+}
+
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-nav li a:hover{
+    color: #11b7b1;
+}
+
+.social-menus{
+    margin-top: 10px;
+}
+
+.social-menus li{
+    float: right;
+    text-decoration: none;
+    margin-right: 30px;
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+    
+}
+.yt{
+    margin-top: 5px;
+}
+
+#main-area{
+    background-image: url(../forcss/aboutBg.jpg);
+    min-height: 675px;
+    background-size: cover;
+    padding-top: 222px;
+    background-position: center;
+    text-align: center;
+}
+
+#main-area h1{
+    font-size: 60px;
+    color:#fff;
+    font-weight: 300;
+}
+
+#our-name{
+    text-align: center;
+    background-color:#f4f4f4;
+    overflow: hidden;
+    
+}
+
+#our-name h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#11b7b1;
+    font-weight: 400;
+}
+#doe{
+    font-size: 30px;
+}
+
+#ceo{
+    font-size:18px;
+    text-transform: uppercase;
+}
+
+#our-name img{
+    padding-top: 42px;
+    
+}
+
+#our-mission{
+    background-image: url(../forcss/ourmission.jpg);
+    background-size: cover;
+    min-height: 320px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#our-mission h2{
+    font-size: 30px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+footer{
+    background-color: #000;
+    min-height: 112px;
+    text-align: center;
+    color:#11b7b1;
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+footer p{
+    color: #11b7b1;
+    font-size: 24px;
+ 
+
+}

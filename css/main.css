@@ -1,0 +1,210 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top-header {
+    height: 112px;
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top: 0;
+    width: 100%; 
+}
+
+.col4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col4 img {
+    margin-top: 32px;
+}
+
+.main-nav {
+    margin-top: 50px;
+}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+.main-nav li a {
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+}
+
+.main-nav li a:hover{
+    color: #11b7b1;
+}
+
+.social-menus{
+    margin-top: 10px;
+}
+.social-menus li{
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+    text-align: center;
+    line-height: 20px;
+}
+
+.yt{
+    margin-top: 5px;
+}
+
+#main-area {
+    background-image: url(../forcss/resistance.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 675px;
+    padding-top: 222px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 80px;
+}
+
+
+h1 span {
+    color: #11b7b1;
+}
+
+#main-area p {
+    color: white;
+    font-size: 18px;
+}
+#main-area img{
+    margin-top: 100px;
+}
+
+
+
+
+#whatwedo {
+    background-color: #11B7B1;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 56px;
+    padding-bottom: 112px;
+    
+}
+
+#whatwedo h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.col6 {
+    width: 50%;
+    min-height: 250px;
+    float: left;
+    color: #fff;
+    font-weight: 300;
+    background-image: url(../forcss/BRANDING.jpg);
+    padding-top: 60px;
+    opacity: .80;
+    cursor: pointer;
+    
+}
+.col6:hover{
+    opacity: 1;
+}
+
+.col6 h3{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.col6 p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#testimonials {
+    background-image: url(../forcss/testmonials.jpg);
+    background-size: cover;
+    margin-top: 0;
+    min-height: 470px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    padding-top: 80px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#testimonials img {
+    padding-top:80px;
+}
+
+#testimonials h4 {
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 36px;
+}
+
+#testimonials h4 span{
+    color: #11b7b1;
+}
+
+#clients{
+    background-color: #f4f4f4;
+    background-size: cover;
+    min-height:400px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+#clients h2{
+    font-weight: 400;
+    color: #11b7b1;
+    //text-transform: uppercase;
+    font-size: 30px;
+}
+
+.col2{
+    float: left;
+    width: 20%;
+    padding-top: 36px;
+}
+
+.col2 img{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.col2 img:hover{
+    opacity: 1;
+}
+
+footer{
+    background-color: #000;
+    min-height: 112px;
+    text-align: center;
+    color:#11b7b1;
+    padding-top: 16px;
+    font-size: 24px;
+}
